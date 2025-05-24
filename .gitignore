@@ -1,0 +1,38 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Virtualenv ===
+venv/
+env/
+.venv/
+.env/
+
+# === Logs y archivos temporales ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.~*
+
+# === OneDrive y archivos molestos ===
+*.lnk
+*.ini
+*.sync
+~$*
+
+# === VSCode y PyCharm ===
+.vscode/
+.idea/
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Base de datos local (si la usás) ===
+*.sqlite3
+*.db
